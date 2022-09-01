@@ -1,0 +1,22 @@
+JSON_COMMA = ","
+JSON_COLON = ":"
+JSON_LEFT_BRACKET = "["
+JSON_LEFT_BRACE = "{"
+JSON_RIGHT_BRACKET = "]"
+JSON_RIGHT_BRACE = "}"
+JSON_QUOTE = '"'
+
+JSON_QUOTE = '"'
+JSON_WHITESPACE = [" ", "\t", "\b", "\n", "\r"]
+JSON_SYNTAX = [
+    JSON_COMMA,
+    JSON_COLON,
+    JSON_LEFT_BRACKET,
+    JSON_RIGHT_BRACKET,
+    JSON_LEFT_BRACE,
+    JSON_RIGHT_BRACE,
+]
+
+FALSE_LEN = len("false")
+TRUE_LEN = len("true")
+NULL_LEN = len("null")
